@@ -1,0 +1,77 @@
+body{
+    margin:0px;
+    font-family:'Raleway', sans-serif;
+}
+.introduction-area{
+background-image: url("images/top-banner.png");
+background-repeat: no-repeat;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+h2{
+    font-size: 38px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2.5%;
+
+}
+.purple-highlight{
+    color: purple;
+}
+.half-width img{
+  width: 100%;
+
+}
+
+section{
+    height: 600px;
+    padding-bottom: 150px;
+}
+.button{
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(45deg, purple,tomato);
+    padding: 10px 30px ;
+    background-color: purple;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+.introduction-area p{
+    padding-bottom: 15px;
+    color: dimgray;
+
+}
+.experiences{
+    padding-top: 100px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.experiences h3{
+    color: purple;
+}
+.experiences div{
+    box-shadow: 5px 7px 40px gray;
+    height: 100%;
+}
+#beginner{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+
+}
